@@ -1,0 +1,35 @@
+"COMMANDER MODELE"
+Processus du cas d'utilisation commande:
+Après authentification,
+cliquer un modèle
+le système affiche tous les détails concernant ce modèle
+l'utilisateur a la possibilité d'ajouter aux favoris
+Il contacte le couturier "le lien de contact se retrouve dans les détails de la commande"
+Si le couturier est disponible et le client est toujours intéressé, {commande confirmée sinon en cours de confirmation}
+Il paye l'acompte suivant la discussion qu'ils auraient eu  {}
+Si la date de livraison arrive et le modèle est prêt : Le couturier notifie sur le système que le modèle est prêt et le système le notifie au client
+
+si le client est satisfait il paye la main d'œuvre, le couturier confirme sur la plateforme et marque la commande comme "payée et terminée"
+
+Si le client n'est pas satisfait, il lance le processus de retouche {on va trouver quel nom à cet état de la commande ?}
+
+Si après retouche, client satisfait : Payer la main d'œuvre et le couturier confirme sur la plateforme et marque la commande comme "payée et terminée"
+
+si le client n'est toujours pas satisfait après retouche, contacter la communauté TailorApp , rembourser la commande.
+
+
+
+
+
+
+
+
+"GENERER MESH 3D"
+"Pour la génération du mesh 3D, quand je lance le script en tant que utilisateur, les joints et mesures s'affichent en parallèle avec le formulaire de prise de mesures puisque j'ai utilisé STAR et avec STAR, il y a des mesures déjà prédisposées à prendre pour faciliter l'intégration des données dans le modèle afin que le mesh 3D soit généré.  Sur le formulaire il y a les mesures à renseigner par l'utilisateur, les bouton radio pour sélectionner son genre, et trois boutons, un pour valider les mesures, l'autres pour générer le mesh et le troisième pour générer un .obj si l'utilisateur veut donc c'est optionnel. La logique voudrait que l'utilisateur valide les mesures avant de générer le mesh pour éviter des erreurs et donc s'il veut après il peut générer l'obj, c'est optionnel"
+
+
+
+
+
+"INSCRIPTION UTILISATEUR"
+"Pour l'inscription d'un utilisateur, dès que l'utilisateur clique sur le lien d'inscription on lui affiche le formulaire d'inscription puis il remplit et ensuite cliques sur le bouton s'inscrire ensuite si c'est bien remplit c'est qu'il est inscrit sinon on lui affiche un message d'erreur et puis c'est tout"
